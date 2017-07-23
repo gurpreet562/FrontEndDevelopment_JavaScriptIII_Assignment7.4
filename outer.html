@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>outer function</title>
+</head>
+<body>
+<script>
+var x=function inner(){
+document.write("Hello World !!");
+}
+function outer(x){
+x();
+}
+outer(x);
+</script>
+</body>
+</html>
+
